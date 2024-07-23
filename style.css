@@ -399,8 +399,8 @@ html {
         overflow-x: auto; /* Permet le défilement horizontal si nécessaire */
 
     }
-   
-
+    
+  
     .test{
         background-position: -784px center;
     }
@@ -433,10 +433,15 @@ html {
 }
 
 @media (max-width: 480px) {
+    
+
+    
     a {
         padding: 0px 10px;
     }
 
+
+    
 
     .m-respon{
         font-size: 19px;
