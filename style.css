@@ -93,19 +93,19 @@ h1 {
 
 .animated-text {
     display: inline-block;
-    animation: slide 15s infinite; /* Ralentit l'animation à 10 secondes */
+    animation: slide 10s infinite; /* Ralentit l'animation à 10 secondes */
     margin: 10px 20px; /* Espacement entre les phrases */
 }
 
 @keyframes slide {
     0% {
-        transform: translateX(-100%); /* Commence à gauche */
+        transform: translateX(-50%); /* Commence à gauche */
     }
     50% {
-        transform: translateX(100%); /* Va à droite */
+        transform: translateX(50%); /* Va à droite */
     }
     100% {
-        transform: translateX(-100%); /* Retourne à gauche */
+        transform: translateX(-50%); /* Retourne à gauche */
     }
 }
 
